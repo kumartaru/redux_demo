@@ -22,7 +22,7 @@ export const fetchUserFailure = (error) => {
   };
 };
 
-//Thunk
+//Redux-thunk
 export const fetchUsers = () => {
   return async (dispatch) => {
     dispatch(fetchUserRequest());
